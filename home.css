@@ -1,0 +1,69 @@
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+i {
+  font-size: 20px;
+  letter-spacing: 4px;
+  color: white;
+  font-style: fantasy;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #172130;
+  height: 8vh;
+}
+
+.imginicial {
+  background: url("Brasil.jpg");
+  background-size: cover;
+  height: 92vh;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 4px;
+  margin-left: 35px;
+
+}
+
+body {
+  color: white;
+  background-color: #182538;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #e5fd0c;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  color: #e5fd0c;
+}

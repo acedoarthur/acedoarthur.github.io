@@ -1,0 +1,100 @@
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: #182538;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+i {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: white;
+    font-style: fantasy;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #172130;
+    height: 8vh;
+}
+
+.imginicial {
+    background: url("Brasil.jpg");
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 4px;
+    margin-left: 35px;
+
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 20%;
+    padding: 15px 0;
+    background: purple;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: purple;
+    transform: scale(1.2);
+}
