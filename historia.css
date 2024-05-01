@@ -104,7 +104,7 @@ h1 {
 }
 
 .charles {
-    text-align: center;
+    text-align: justify;
     width: 1000px;
 }
 
@@ -114,11 +114,14 @@ h1 {
 
 .brasa {
     color: green;
+    text-align: justify;
 }
+
 
 .compet {
     color: lightskyblue;
 }
+
 
 .brA {
     color: #EEE8AA;
@@ -138,4 +141,16 @@ h1 {
 
 .Pio {
     color: blue;
+}
+
+.textorigem {
+    text-align: justify;
+}
+
+.textbrasa{
+    text-align: justify;
+}
+
+.textcompet{
+    text-align: justify;
 }
