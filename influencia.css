@@ -1,0 +1,139 @@
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+i {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: white;
+    font-style: fantasy;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #172130;
+    height: 8vh;
+}
+
+.imginicial {
+    background: url("Brasil.jpg");
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 4px;
+    margin-left: 35px;
+
+}
+
+body {
+    color: white;
+    background-color: #182538;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.influencia {
+    text-align: center;
+}
+
+.textoinflu {
+    text-align: justify;
+}
+
+h1 {
+    color: #e5fd0c;
+}
+
+.social {
+    color: green;
+    text-align: justify;
+}
+
+
+.compet {
+    color: lightskyblue;
+}
+
+
+.paixao {
+    color: #EEE8AA;
+}
+
+.ind {
+    color: #EEE8AA;
+}
+
+.Ace {
+    color: #EEE8AA;
+}
+
+
+.textAce {
+    text-align: justify;
+}
+
+.textoinflu {
+    text-align: justify;
+}
+
+.textind {
+    text-align: justify;
+}
+
+.textpaixao {
+    text-align: justify;
+}
+
+.ecopoli {
+    color: lightskyblue;
+    text-align: justify;
+}
+
+.primeeiro {
+    text-align: justify;
+}
+
+.segundo {
+    text-align: justify;
+}
+
+.terceiro {
+    text-align: justify;
+}
+
+.quarto {
+    text-align: justify;
+}
+
+.quinto {
+    text-align: justify;
+}
+
+
+.video {
+    text-align: center;
+    width: 499px;
+    background: linear-gradient(white, #CCCCCC);
+}
