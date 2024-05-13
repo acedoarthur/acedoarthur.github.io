@@ -67,3 +67,30 @@ header img {
 h1 {
   color: #e5fd0c;
 }
+.golrede img{
+  object-position: 20px;
+}
+
+.boxbola {
+	position: absolute;
+	animation: rolar 1.5s linear infinite alternate running;
+}
+
+.boxbola:hover {
+	animation-play-state: paused;
+}
+
+@keyframes rolar {
+	from {
+		transform: translate(5, 5);
+	}
+
+	50% {
+		transform: translate(-100%, 30px);
+	}
+
+	to {
+		transform: translate(48vw, 18vw);
+	}
+}
+
