@@ -1,0 +1,227 @@
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+i {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: white;
+    font-style: fantasy;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #172130;
+    height: 8vh;
+}
+
+.imginicial {
+    background: url("Brasil.jpg");
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 4px;
+    margin-left: 35px;
+
+}
+
+body {
+    color: white;
+    background-color: #182538;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principais {
+    text-align: justify;
+}
+
+.textoprincipais {
+    text-align: justify;
+    color: white;
+}
+
+h1 {
+    color: blue;
+}
+
+.sul{
+    color:forestgreen;
+    font-size: 20px;
+}
+
+.sudeste{
+    color:gold;
+    font-size: 20px;
+}
+
+.centro{
+    color: blue;
+    font-size: 20px;
+}
+
+.nordeste{
+    color: white;
+    font-size: 20px;
+}
+
+.rsclubes li {
+    display: inline-block;
+    position: center;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 14px;
+}
+
+.scclubes li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 14px;
+}
+
+.parclubes li {
+    display: inline-block;
+    position: center;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 14px;
+}
+
+.spclubes li {
+    display: inline-block;
+    position: center;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 14px;
+}
+
+.rjclubes li {
+    display: inline-block;
+    position: center;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 14px;
+}
+
+.mgclubes li {
+    display: inline-block;
+    position: center;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 14px;
+}
+
+.centroclubes li {
+    display: inline-block;
+    position: center;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 14px;
+}
+
+.nordesteclubes li {
+    display: inline-block;
+    position: center;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 14px;
+}
+
+.nordesteclubes1 li {
+    display: inline-block;
+    position: center;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 14px;
+}
+
+.norteclubes li {
+    display: inline-block;
+    position: center;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 14px;
+}
+
+.brasiltimes {
+	width: 50%;
+	opacity: 0.3;
+	transition: 400ms;
+	box-shadow: 10px 10px 5px  blu, -10px -10px yellow, -20px 20px 20px rgba(11, 207, 4, 0.5);
+}
+
+.brasiltimes:hover {
+	opacity: 1;
+}
